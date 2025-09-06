@@ -10,7 +10,7 @@ DECLARE @schema NVARCHAR(MAX) = '(
     category_id     bigint                 NULL,                   -- ne vždy vyplněno
     category_code   varchar(255)           NULL,                   -- např. "cosmetics.lipstick"
     brand           varchar(255)           NULL,
-    price           decimal(10,2)          NOT NULL,               -- cena za událost
+    price           float                   NOT NULL,               -- cena za událost
     user_id         bigint                 NOT NULL,
     user_session    varchar(200)       NULL 
 )';
