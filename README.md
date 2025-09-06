@@ -19,6 +19,10 @@ The acronym RFM stands for:
 * How much the customer spends.
 * The higher the value, the more important the customer is.
 
+## SQL table
+
+<img src="./images/table.png" alt="Diagram" width="300">
+
 ## Code
 
 ```sql
@@ -93,4 +97,5 @@ SELECT *
 FROM final
 --WHERE RFM_segmentation = 444
 ```
+
 
