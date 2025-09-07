@@ -1,4 +1,4 @@
-# RFM segmetation in SQL on E-commerce Dataset
+# RFM segmentation in SQL on E-commerce Dataset
 
 A short project that demonstrates how to calculate RFM (Recency, Frequency, Monetary) metrics purely in SQL using a public e-commerce dataset from 
 [Kaggle](https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop)).
@@ -97,6 +97,7 @@ SELECT *
 FROM final
 --WHERE RFM_segmentation = 444
 ```
+
 
 
 
