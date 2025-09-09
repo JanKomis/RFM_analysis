@@ -98,6 +98,16 @@ FROM final
 --WHERE RFM_segmentation = 444
 ```
 
+## What's next?
+| RFM Code (example) | Segment | What to do | Example action |
+|--------------------|---------|------------|----------------|
+| **444** | **Champions** | Keep and reward | VIP offers, early access, ask for reviews |
+| **424 / 414** | **Loyal Customers** | Increase basket size | Cross-sell, loyalty program |
+| **441 / 431** | **Potential Loyalists** | Strengthen relationship | Discount on 2nd order, onboarding series |
+| **224** | **About to Sleep** | Re-engage | Limited-time incentive, reminder |
+| **243 / 233** | **At Risk** | Save high-value clients | Win-back campaign, VIP care |
+| **111** | **Lost** | Close politely | Final reactivation email, then suppress → stop sending promos to protect sender reputation and avoid spam issues |
+
 
 
 
