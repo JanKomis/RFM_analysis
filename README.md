@@ -33,9 +33,9 @@ WITH orders AS (
 SELECT
         user_id,
         user_session,
-        MAX(event_date) AS last_order, -- první nákup v sezení
-        COUNT(*) AS items_count,        -- kolik položek bylo koupeno
-        SUM(price) AS order_amount      -- hodnota objednávky
+        MAX(event_date) AS last_order, 
+        COUNT(*) AS items_count,        
+        SUM(price) AS order_amount      
 FROM db_cosmetic_store_warehouse.dbo.sales_data
 WHERE event_type = 'purchase'
 GROUP BY user_id, user_session
@@ -107,6 +107,7 @@ FROM final
 | **224** | **About to Sleep** | Re-engage | Limited-time incentive, reminder |
 | **243 / 233** | **At Risk** | Save high-value clients | Win-back campaign, VIP care |
 | **111** | **Lost** | Close politely | Final reactivation email, then suppress → stop sending promos to protect sender reputation and avoid spam issues |
+
 
 
 
